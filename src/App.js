@@ -1,20 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Products from './components/products/Products';
-import Categories from './components/products/Categories';
-import Shoppingcart from './components/products/Shoppingcart';
-import Staff from './components/products/Staff';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import Routes instead of Switch
+import Private from './categories/Private';
+import Company from './categories/Company';
+import Security from './categories/Security';
+import './App.css';
+
 function App() {
-    return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<Categories />} />
-                <Route path="/Products" element={<Products />} />
-                <Route path="/Shoppingcart" element={<Shoppingcart/>} />
-                <Route path="/Staff" element={<Staff/>}/>
-            </Routes>
-        </Router>
-    );
+  return (
+    <Router>
+      <Routes> {/* Use Routes instead of Switch */}
+        <Route path="/" element={<Private />} /> {/* Change component to element */}
+        <Route path="/company" element={<Company />} /> {/* Change component to element */}
+        <Route path="/security" element={<Security />} /> {/* Change component to element */}
+        <Route path="*" element={<h2>404 Not Found</h2>} /> {/* Change component to element */}
+      </Routes>
+    </Router>
+  );
 }
 
-export default App; 
+export default App;
