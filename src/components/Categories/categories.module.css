@@ -79,3 +79,43 @@ h1 {
     color: white !important; 
 }
 
+@media screen and (max-width:917px){
+    .card img{
+        top:50px;
+    }
+}
+
+
+@media screen and (max-width:857px){
+    .card img{
+        width: 0%;
+    }
+}
+
+@media screen and (max-width:538px){
+    .card h2{
+        font-size: 20px;
+    }
+    .card a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:405px){
+    .card h2{
+        font-size: 15px;
+    }
+    .card a{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:320px){
+    .card h2{
+        font-size: 12px;
+    }
+    .card a{
+        font-size: 9px;
+    }
+}
