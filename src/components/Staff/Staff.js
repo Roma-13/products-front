@@ -14,7 +14,7 @@ const Staff = () => {
 
     const openModal = (index) => {
         setModalVisible(true);
-        setSelectedImage(require(`../../assets/${index + 1}.jpg`));
+        setSelectedImage(require(`../../../assets/${index + 1}.jpg`));
     };
     
 

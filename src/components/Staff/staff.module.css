@@ -69,23 +69,23 @@ body{
 }
 
 .image1{
-    background-image: url(../../assets//1.jpg);
+    background-image: url(../../../assets//1.jpg);
 }
 
 .image2{
-    background-image: url(../../assets//2.jpg);
+    background-image: url(../../../assets//2.jpg);
 }
 
 .image3{
-    background-image: url(../../assets//3.jpg);
+    background-image: url(../../../assets//3.jpg);
 }
 
 .image4{
-    background-image: url(../../assets//4.jpg);
+    background-image: url(../../../assets//4.jpg);
 }
 
 .image5{
-    background-image: url(../../assets//5.jpg);
+    background-image: url(../../../assets//5.jpg);
 }
 
 .modalcontent {

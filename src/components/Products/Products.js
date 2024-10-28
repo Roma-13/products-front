@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Ensure this line is present
+import { Link } from "react-router-dom"; 
 import styles from "./products.module.css";
-import IMG1 from "./../../assets/1707289109360.png";
-import IMG2 from "./../../assets/1713416670393.png";
+import IMG1 from "../../../assets/1707289109360.png";
+import IMG2 from "../../../assets/1713416670393.png";
 import { RiShoppingCart2Line } from "react-icons/ri";
 import { FaCheck } from "react-icons/fa";
 import { ImCross } from "react-icons/im";

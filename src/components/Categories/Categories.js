@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; 
 import styles from "./categories.module.css";
-import IMG1 from "./../../assets/99e99428e348aa46b08de96da6e92ad5.png";
-import IMG2 from "./../../assets/images.png";
+import IMG1 from "../../../assets/99e99428e348aa46b08de96da6e92ad5.png";
+import IMG2 from "../../../assets/images.png";
 
 const categories = [
     {
